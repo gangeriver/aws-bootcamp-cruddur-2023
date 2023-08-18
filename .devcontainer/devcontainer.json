@@ -13,9 +13,14 @@
 		"vscode": {
 			"extensions": [
 				"ms-azuretools.vscode-docker",
-				"ms-python.python"
-			]
-		}
+				"ms-python.python",
+				"mark-tucker.aws-cli-configure"
+			],
+			"settings": {
+				"terminal.integrated.fontSize": 20,
+				"editor.fontSize": 20,
+				"workbench.colorTheme": "Default Dark+"
+			}
 	}
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
